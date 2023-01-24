@@ -231,3 +231,47 @@ ul li a:hover{
     font-weight: bold;
 }
 
+@media only screen and (max-width: 600px){
+    body {
+        font-size: 14px;
+        background-size: cover;
+        background-position: center;
+    }
+    li h3 {
+        font-size: 36px;
+    }
+    .Navbar{
+        height: 100px;
+    }
+    .Navbar li a{
+        font-size:14px;
+    }
+    section .container{
+        width: 100%;
+        height: 200px;
+    }
+    section .buttons{
+        width: 100%;
+        padding:none;
+        margin:none;
+    }
+    section .buttons ul{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .button{
+        font-size:12px;
+    }
+    section .container-two{
+        width: 100%;
+        height: 200px;
+    }
+    footer{
+        margin:0;
+        padding:0;
+    }
+    footer nav ul li a{
+        font-size:14px;
+    }
+}
