@@ -1,6 +1,6 @@
 # encriptador
 
 
-![Challenge](./Images/encriptador.bmp)
+![Challenge](./Images/encriptador.jpg)
 
 #challengeonecodificador4 #oracle
