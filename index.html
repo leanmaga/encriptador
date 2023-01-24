@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+        <nav class="Navbar">
+
+            <li><h3>Alura</h3></li>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="container">
+            <textarea id="input" class="box one" placeholder="Introduce el texto a encriptar o desencriptar"></textarea>
+        </div>
+
+        <div class="buttons">
+            <ul>
+                <li>
+                    <button onclick="encrypt()" data-text="Awesome" class="button enc">
+                        <span class="actual-text">&nbsp;Encriptar&nbsp;</span>
+                        <span class="hover-text" aria-hidden="true">&nbsp;Encriptar&nbsp;</span>
+                    </button>
+                </li>
+                <li>
+                    
+                    <button onclick="decrypt()" data-text="Awesome" class="button des">
+                        <span class="actual-text">&nbsp;Desencriptar&nbsp;</span>
+                        <span class="hover-text" aria-hidden="true">&nbsp;Desencriptar&nbsp;</span>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="copyEncrypted()" data-text="Awesome" class="button cop">
+                        <span class="actual-text">&nbsp;Copiar&nbsp;</span>
+                        <span class="hover-text" aria-hidden="true">&nbsp;Copiar&nbsp;</span>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="pasteEncrypted()" data-text="Awesome" class="button peg">
+                        <span class="actual-text">&nbsp;Pegar&nbsp;</span>
+                        <span class="hover-text" aria-hidden="true">&nbsp;Pegar&nbsp;</span>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="resetText()" data-text="Awesome" class="button peg">
+                        <span class="actual-text">&nbsp;Reiniciar&nbsp;</span>
+                        <span class="hover-text" aria-hidden="true">&nbsp;Reiniciar&nbsp;</span>
+                    </button>
+                </li>
+               
+            
+            </ul>
+        </div>
+            
+        <div class="container-two">
+            <div id="output" class="box two"></div>
+        </div>
+        
+        
+       
+    </section>
+    
+    
+    <footer>
+
+        <nav class="footer">
+
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+
+        </nav>
+
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
