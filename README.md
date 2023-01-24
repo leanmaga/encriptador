@@ -1,5 +1,4 @@
 # encriptador
-.
 
 ![Challenge](./Images/encriptador.png)
 
